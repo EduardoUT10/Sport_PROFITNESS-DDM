@@ -14,7 +14,7 @@
         <StackLayout Padding="15" VerticalOptions="FillAndExpand">
 
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                <Label Text="Training of" TextDecorations="Underline" TextColor="Black" FontAttributes="Bold"  FontSize="30"/>
+                <Label Text="Ejercicios del dia:" TextDecorations="Underline" TextColor="Black" FontAttributes="Bold"  FontSize="30"/>
                 <Label Text="{Binding Date}" TextColor="Black" TextDecorations="Underline" FontAttributes="Bold" TextTransform="Uppercase" FontSize="30"/>
             </StackLayout>
 

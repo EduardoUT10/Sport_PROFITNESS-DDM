@@ -82,7 +82,7 @@
                     </StackLayout>
                 </Frame>
             </StackLayout>
-            <Button BackgroundColor="Red" Text="Save and Left" Command="{Binding LeftWorkoutCommand}"  TextColor="White" FontSize="Large"/>
+            <Button BackgroundColor="Red" Text="Guardar y seguir" Command="{Binding LeftWorkoutCommand}"  TextColor="White" FontSize="Large"/>
         </StackLayout>
     </StackLayout>
 
