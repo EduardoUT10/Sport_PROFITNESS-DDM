@@ -10,7 +10,7 @@
     <StackLayout Padding="15" HorizontalOptions="FillAndExpand">
 
         <Frame HasShadow="False" BackgroundColor="Transparent"/>
-        <Label Text="Antes de comenzar, seleccione una sesión de ejercicios." FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
+        <Label Text="Antes de empezar, seleccione una sesión de ejercicios." FontSize="Large" TextColor="Black" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand"/>
         <StackLayout HorizontalOptions="CenterAndExpand" Margin="0,20,0,0">
             <Button Text="DIA LIBRE" BackgroundColor="Red" CornerRadius="20" TextColor="White" Command="{Binding DayOffCommand}" />
             <Label Text="LISTA DE EJERCICIOS" HorizontalOptions="CenterAndExpand" Margin="0,30,0,0" />
