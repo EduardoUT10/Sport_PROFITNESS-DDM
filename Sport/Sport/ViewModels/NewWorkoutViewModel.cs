@@ -133,14 +133,14 @@ namespace Sport.ViewModels
 
         private async void OnDifficulty()
         {
-            var result = await App.Current.MainPage.DisplayActionSheet("Difficulty Exercise", "Cancel", null, "Easy", "Medium", "Hard");
+            var result = await App.Current.MainPage.DisplayActionSheet("Difficulty Exercise", "Cancelar", null, "Facil", "Media", "Fuerte");
 
             if (result != "Cancel" && !string.IsNullOrEmpty(result))
             {
                 TextDifficulty = result;
             }
             else
-                TextDifficulty = "Easy";
+                TextDifficulty = "Facil";
         }
 
         private async void OnSave()
