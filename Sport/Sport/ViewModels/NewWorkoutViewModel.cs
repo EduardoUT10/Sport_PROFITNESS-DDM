@@ -34,7 +34,7 @@ namespace Sport.ViewModels
 
         private string _name;
         private string _description;
-        private string _textDifficulty = "Easy";
+        private string _textDifficulty = "Facil";
         private string _rounds;
         private string _break;
 
