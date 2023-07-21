@@ -74,7 +74,7 @@ namespace Sport.Services
         public async Task AddBodyPartsDatabase()
         {
             List<BodyParts> bodyParts = await GetBodyPartsAsync();
-            List<string> parts = new List<string>() { "back", "biceps", "quadriceps", "triceps", "calves", "abs", "shoulders", "pectorals", "neck", "forearms", "buttocks", "ischios" };
+            List<string> parts = new List<string>() { "atras", "biceps", "quadriceps", "triceps", "brazos", "abs", "hombros", "pectorales", "cuello", "antebrazos", "nalgas", "piernas" };
             if(bodyParts.Count == 0)
             {
                 foreach (var part in parts)
